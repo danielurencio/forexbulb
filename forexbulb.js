@@ -9,7 +9,7 @@ app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 app.use(express.static(__dirname + '/'));
 
-app.get('/journal', function(req,res) {
+app.get('/', function(req,res) {
 
     res.render('forexbulb');
 
