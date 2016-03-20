@@ -1,0 +1,36 @@
+@font-face {
+    font-family: lane;
+    src: url("LANENAR_.ttf");
+}
+
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("HelveticaNeueLTStd Lt.otf");
+}
+
+#logo {
+position:relative;
+    margin-top: 70px;
+    margin-left: 175px;
+}
+
+#bulb {
+    position: absolute;
+    margin-top: 150px;
+}
+
+#title {
+    margin-right:445px; 
+    text-align: right;
+    font-family: lane;
+    font-size: 120px;
+}
+
+#par {
+    margin-top: 10px;
+    margin-left: 500px;
+    width: 400px;
+    font-family: HelveticaNeue;
+    text-align: justify;
+}
