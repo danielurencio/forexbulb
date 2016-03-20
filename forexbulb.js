@@ -19,7 +19,9 @@ app.use(function(req, res) {
     res.sendStatus(404);
 });
 
-var server = app.listen(8080, function() {
-    var port = server.address().port;
+var port = process.env.PORT || 8080;
+
+var server = app.listen(port, function() {
+//    var port = server.address().port;
     console.log('Journal is on port 8080!');
 });
